@@ -1,0 +1,27 @@
+/** Step one **/
+
+
+/** Step two **/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Freeman";}
+/** Step three **/
+h1{
+    font-size: 46px;
+    letter-spacing: 1.4;
+    text-align: center;
+    color:brown;
+}
+
+/** Step four **/
+body{
+    font-family: "Radio Canada Big";
+}
+/** Step five **/
+body span{
+    color: blue;
+}
+/** Step six **/
+h3{
+    font-size: 4em;
+    text-shadow: 4px 3px 4px  rgba(0,0,0,.8);
+}
