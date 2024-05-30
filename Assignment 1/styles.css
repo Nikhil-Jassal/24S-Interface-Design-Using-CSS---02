@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("images/peakpx.jpg");
+    background-size: cover;/*cover entire background of the webpage*/
+    background-position: center;/*center background image*/
+    background-attachment: fixed;/*fix background*/
+    height: 100vh; /* Ensures the gradient covers the entire background */
+}
+
+img {
+    text-align: center;/*align image*/
+}
+.logo {  
+    margin-top: 30px;
+}
+
+img[alt="logo"] {
+    width: 500px; /* Adjust size as needed */
+    margin: 0 auto;
+    display: flex; /* Ensures centering works */
+    filter: brightness(350%); /* Adjust brightness value as needed */
+    align-items: center;
+}
+
+iframe {
+    border: none;/*remove border*/
+    width: 100%; /* Make the width responsive */
+    max-width: 350px; /* Set a max width */
+    height: 200px;/*height of iframe*/
+    margin-top: 50px; /* Adjust as needed */
+    margin-left: 150px; /* Align to the left */
+    display: flex;/*using flexbox*/
+}
+
+.text {   
+    font-family: "Sancreek", serif;/*font family for textarea*/
+    font-weight: 400;
+     font-style: normal;
+    font-size: 20px;
+    display: block;/*display as block element*/
+    margin: 20px auto 0; /* Center horizontally */
+    border: none;
+    overflow-y: scroll;/*for vertically scrolling*/
+    resize: none;
+    padding: 20px; /*Add some padding inside the box*/
+    width: 90%; /*Make the width responsive*/
+    max-width: 470px; /*Set a max width*/
+    height: 200px; /*Set a height for the box */
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+    margin-left: 80px; /*Align to the left */
+    margin-top: 40px;
+}
+.text span{
+    font-size: 30px;
+    text-decoration: solid;
+}
+footer{
+    font-family: "Sedan SC", serif;/*font family for footer*/
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+footer p {
+    color: beige;
+    margin: 0; /*remove default margin*/
+    padding: 3px 0; /*adjust padding as needed*/
+}
+::-webkit-scrollbar{
+    display: none;/*hide scrollbar*/
+}
