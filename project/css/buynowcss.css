@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #E02A29;
+    border-bottom: 10px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar img {
+    margin-left: 30px;
+    width: 8em;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-family: Days One;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
+.nav-link:hover {
+    color: #f8f8f8;
+}
+
+.content-container {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/Z3_Space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 70%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.item img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.item .text {
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+    color: #f8f8f8;
+    font-family: Averia Serif Libre;
+}
+
+.item .text h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.item .text p {
+    font-size: 1em;
+    color: #f8f8f8;
+    line-height: 1.6;
+}
+
+.buy-now-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E02A29;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #E02A29;
+    font-family: Averia Serif Libre;
+    color: #fff;
+    border-top: 10px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.footerLogo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footerSection {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footerSection h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.footerSection p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcon img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.subscribeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribeForm input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: #E02A29;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribeBtn:hover {
+    background-color: #c03a38;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+}

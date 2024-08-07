@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #E02A29;
+    border-bottom: 10px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar img {
+    margin-left: 30px;
+    width: 8em;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-family: Days One;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
+.nav-link:hover {
+    color: #f8f8f8;
+}
+
+.content-container {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 10px solid #f8f8f8;
+}
+
+.container1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    border: #f8f8f8;
+    border-radius: 20px;
+    color: #f8f8f8;
+    font-size: 5vw;
+    width: 90%;
+}
+
+.imgtext h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E02A29;
+    font-size: .8em;
+    text-decoration: underline 7px #f8f8f8;
+    margin: 0;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.imgtext p {
+    margin-top: 15px;
+    color: #E02A29;
+    font-size: .4em;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-image: url("../img/3d-rendering-toy-bricks-on-600nw-1776713453.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.product {
+    width: 275px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product p {
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+}
+
+.product .price {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #E02A29;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 28%;
+    margin-bottom: 20px;
+}
+
+.add-to-cart:hover {
+    background-color: #C62828;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.footer {
+    background-color: #E02A29;
+    font-family: Averia Serif Libre;
+    color: #fff;
+    border-top: 10px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.footerLogo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footerSection {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footerSection h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.footerSection p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socialIcon img {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.subscribeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribeForm input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: #E02A29;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribeBtn:hover {
+    background-color: #c03a38;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
